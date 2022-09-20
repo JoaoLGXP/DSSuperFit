@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Inicio header*/
+header {
+    background-color: #F03C42;
+    height: 100px;
+}
+
+.principal {
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.principal-name {
+    display: flex;
+    padding-top: 37px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.51px;
+}
+
+.social-media {
+    display: flex;
+    padding-top: 35px;
+
+}
+
+.social-media p {
+    padding-top: 6px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+
+}
+/*Fim header*/
+
+/*Inicio Conheça nosso espaço e cards*/
+#presentation {
+    background-color: #222374;
+    height: 418px;
+}
+
+.presentation-title {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    width: 960px;
+    color: #ffffff;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.58px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.24px;
+    padding-bottom: 20px;
+}
+
+.cards p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.presentation-card{
+    background-color: #CCCCCC;
+    color: #000000;
+    border-radius: 8px;
+    width: 960px;
+    height: 127px;
+    margin: 40px 120px 20px 120px;
+    padding: 20px;
+    align-content: center;
+
+}
+
+.presentation-card-2{
+    background-color: #CCCCCC;
+    color: #000000;
+    border-radius: 8px;
+    width: 960px;
+    height: 127px;
+    margin: 0 120px 40px 120px;
+    padding: 20px;
+}
+/*Fim Conheça nosso espaço e cards*/
+
+/*Inicio Modalidades*/
+#modalities {
+    background-color: white;
+    min-height: 880px;
+    min-width: 1200px;
+}
+
+.exercise-formatation {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    width: 960px;
+    color: #F03C42;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43.58px;
+}
+
+.exercise-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exercise-cards h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.24px;
+    padding-bottom: 20px;
+}
+
+.exercise-cards p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.exercise-card{
+    background-color: #222374;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 960px;
+    height: 106px;
+    margin: 0 120px 20px 120px;
+    padding: 20px;
+}
+
+.exercise-card-1{
+    background-color: #222374;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 960px;
+    height: 106px;
+    margin: 50px 120px 20px 120px;
+    padding: 20px;
+}
+
+.exercise-card-6{
+    background-color: #222374;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 960px;
+    height: 106px;
+    margin: 0 120px 40px 120px;
+    padding: 20px;
+}
+/*Fim Modalidades*/
+
+/*Inicio Footer*/
+footer {
+    background-color: black;
+    color: #ffffff;
+    height: 262px;
+    display: flex;
+   /* align-items: center;*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.footer-social-media p {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.footer-social-media-2 p {
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.footer-social-media img {
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+.footer-social-media-2 img {
+    margin-bottom: 30px;
+}
+
+
+.footer-social-media-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-information {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.address {
+    font-style: italic;
+}
+
+.footer-content {
+    width: 100%;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.footer-content img {
+    align-items: center;
+}
+
+/*Fim Footer*/
